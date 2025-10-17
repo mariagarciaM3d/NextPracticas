@@ -1,7 +1,12 @@
+import Hero from "@/sections/Hero";
+import Posts from "@/sections/Posts";
 
 
 export default function Home() {
   return (
-    <h1>Digital News App</h1>
+    <main id="main">
+      <Hero />
+      <Posts/>
+    </main>
   );
 }
