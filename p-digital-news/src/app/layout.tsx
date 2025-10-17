@@ -1,8 +1,19 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+// import Icons
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const inter = Inter({
+// import bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+
+//import aos css
+import 'aos/dist/aos.css';
+
+import type { Metadata } from "next";
+import { EB_Garamond } from "next/font/google";
+import './variables.css';
+import "./globals.css";
+import Header from '@/components/Header';
+
+const ebGaramond = EB_Garamond({
   subsets: ["latin"],
 });
 
@@ -18,7 +29,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} >
+      <body className={ebGaramond.className} >
+        <Header/>
         {children}
       </body>
     </html>
