@@ -93,6 +93,37 @@ export const heroSlides = [
   },
 ];
 
+//Simulación de base de datos
+export const posts = [
+  {
+    id: 1,
+    title: "Cómo usar React con TypeScript",
+    excerpt: "Aprende los fundamentos para combinar React y TypeScript correctamente.",
+    image: "/asset/img/post-sq-1.jpg",
+    date: "2025-10-10",
+    author: "María García",
+    category: "Desarrollo Web",
+  },
+  {
+    id: 2,
+    title: "Tailwind CSS: estilos más rápidos",
+    excerpt: "Descubre cómo Tailwind te permite escribir CSS más limpio y reutilizable.",
+    image: "/asset/img/post-sq-2.jpg",
+    date: "2025-10-14",
+    author: "María García",
+    category: "CSS",
+  },
+  {
+    id: 3,
+    title: "Next.js: primeros pasos",
+    excerpt: "Crea tu primera aplicación con Next.js en pocos minutos.",
+    image: "/asset/img/post-sq-3.jpg",
+    date: "2025-10-18",
+    author: "María García",
+    category: "JavaScript",
+  },
+];
+
 export const contact = [
   {
     id: 1,

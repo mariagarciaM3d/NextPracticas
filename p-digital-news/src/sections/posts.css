@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .custom-border {
+    border: none !important;
+  }
+}
+
+.posts-section {
+  background-color: #fafafa;
+  
+}
+
+.posts-section article {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.posts-section article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.posts-section h3 {
+  color: #222;
+}
+
+.posts-section p {
+  line-height: 1.5;
+}
