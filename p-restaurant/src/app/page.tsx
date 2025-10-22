@@ -1,6 +1,7 @@
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 import Menu from "./sections/Menu";
+import Specials from "./sections/Specials";
 import WhyUs from "./sections/WhyUs";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
       <About/>
       <WhyUs/>
       <Menu/>
+      <Specials />
     </main>
     
     </>

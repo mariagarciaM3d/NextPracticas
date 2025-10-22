@@ -155,7 +155,7 @@ export const filters = [
 export const specials = [
   {
     id: 1,
-    image: './asset/images/specials/specials-1.png',
+    image: '/asset/images/specials/specials-1.png',
     title: 'Architecto ut aperiam autem id',
     subtitle:
       'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
@@ -165,7 +165,7 @@ export const specials = [
   },
   {
     id: 2,
-    image: './asset/images/specials/specials-2.png',
+    image: '/asset/images/specials/specials-2.png',
     title: 'Et blanditiis nemo veritatis excepturi',
     subtitle:
       'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
@@ -175,7 +175,7 @@ export const specials = [
   },
   {
     id: 3,
-    image: './asset/images/specials/specials-3.png',
+    image: '/asset/images/specials/specials-3.png',
     title: 'Impedit facilis occaecati odio neque aperiam sit',
     subtitle:
       'Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut',
@@ -185,7 +185,7 @@ export const specials = [
   },
   {
     id: 4,
-    image: './asset/images/specials/specials-4.png',
+    image: '/asset/images/specials/specials-4.png',
     title:
       'Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore',
     subtitle:
@@ -196,7 +196,7 @@ export const specials = [
   },
   {
     id: 5,
-    image: './asset/images/specials/specials-5.png',
+    image: '/asset/images/specials/specials-5.png',
     title: 'Est eveniet ipsam sindera pad rone matrelat sando reda',
     subtitle: 'Omnis blanditiis saepe eos autem qui sunt debitis porro quia.',
     content:
@@ -236,7 +236,7 @@ export const specialsFilters = [
 export const events = [
   {
     id: 1,
-    image: './asset/images/events/event-birthday.jpg',
+    image: '/asset/images/events/event-birthday.jpg',
     title: 'Birthday Parties',
     price: 189,
     content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -251,7 +251,7 @@ export const events = [
   },
   {
     id: 2,
-    image: './asset/images/events/event-private.jpg',
+    image: '/asset/images/events/event-private.jpg',
     title: 'Private Parties',
     price: 290,
     content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -266,7 +266,7 @@ export const events = [
   },
   {
     id: 3,
-    image: './asset/images/events/event-custom.jpg',
+    image: '/asset/images/events/event-custom.jpg',
     title: 'Custom Parties',
     price: 99,
     content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -286,7 +286,7 @@ export const testimonials = [
     id: 1,
     content: `Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. 
     Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.`,
-    avatar: './asset/images/testimonials/testimonials-1.jpg',
+    avatar: '/asset/images/testimonials/testimonials-1.jpg',
     client: 'Saul Goodman',
     position: 'CEO',
   },
@@ -294,7 +294,7 @@ export const testimonials = [
     id: 2,
     content: `Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum 
     eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.`,
-    avatar: './asset/images/testimonials/testimonials-2.jpg',
+    avatar: '/asset/images/testimonials/testimonials-2.jpg',
     client: 'Sara Wilsson',
     position: 'Consultant',
   },
@@ -302,7 +302,7 @@ export const testimonials = [
     id: 3,
     content: `Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis 
     minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.`,
-    avatar: './asset/images/testimonials/testimonials-3.jpg',
+    avatar: '/asset/images/testimonials/testimonials-3.jpg',
     client: 'Jena Karlis',
     position: 'Store Owner',
   },
@@ -310,7 +310,7 @@ export const testimonials = [
     id: 4,
     content: `Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim 
     velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.`,
-    avatar: './asset/images/testimonials/testimonials-4.jpg',
+    avatar: '/asset/images/testimonials/testimonials-4.jpg',
     client: 'Matt Brandon',
     position: 'Freelancer',
   },
@@ -318,7 +318,7 @@ export const testimonials = [
     id: 5,
     content: `Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
      culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.`,
-    avatar: './asset/images/testimonials/testimonials-5.jpg',
+    avatar: '/asset/images/testimonials/testimonials-5.jpg',
     client: 'John Larson',
     position: 'Entrepreneur',
   },
@@ -363,21 +363,21 @@ export const chefs = [
   {
     id: 1,
     name: 'Walter White',
-    photo: './asset/images/chefs/chefs-1.jpg',
+    photo: '/asset/images/chefs/chefs-1.jpg',
     position: 'Master Chef',
     delay: '100',
   },
   {
     id: 2,
     name: 'Sarah Jhonson',
-    photo: './asset/images/chefs/chefs-2.jpg',
+    photo: '/asset/images/chefs/chefs-2.jpg',
     position: 'Patissier',
     delay: '200',
   },
   {
     id: 3,
     name: 'William Anderson',
-    photo: './asset/images/chefs/chefs-3.jpg',
+    photo: '/asset/images/chefs/chefs-3.jpg',
     position: 'Cook',
     delay: '300',
   },
