@@ -24,7 +24,7 @@ export const menu = [
     id: 1,
     name: 'Lobster Bisque',
     price: 5.95,
-    preview: '/assets/images/menu/lobster-bisque.jpg',
+    preview: '/asset/images/menu/lobster-bisque.jpg',
     ingredients: 'Lorem, deren, trataro, filede, nerada',
     category: 'starters',
     description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
@@ -35,7 +35,7 @@ export const menu = [
     id: 2,
     name: 'Bread Barrel',
     price: 6.95,
-    preview: '/assets/images/menu/bread-barrel.jpg',
+    preview: '/asset/images/menu/bread-barrel.jpg',
     ingredients: 'Lorem, deren, trataro, filede, nerada',
     category: 'specialty',
     description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
@@ -46,7 +46,7 @@ export const menu = [
     id: 3,
     name: 'Crab Cake',
     price: 7.95,
-    preview: '/assets/images/menu/cake.jpg',
+    preview: '/asset/images/menu/cake.jpg',
     ingredients:
       'A delicate crab cake served on a toasted roll with lettuce and tartar sauce',
     category: 'starters',
@@ -58,7 +58,7 @@ export const menu = [
     id: 4,
     name: 'Caesar Selections',
     price: 8.95,
-    preview: '/assets/images/menu/caesar.jpg',
+    preview: '/asset/images/menu/caesar.jpg',
     ingredients: 'Lorem, deren, trataro, filede, nerada',
     category: 'salads',
     description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
@@ -69,7 +69,7 @@ export const menu = [
     id: 5,
     name: 'Tuscan Grilled',
     price: 9.95,
-    preview: '/assets/images/menu/tuscan-grilled.jpg',
+    preview: '/asset/images/menu/tuscan-grilled.jpg',
     ingredients:
       'Grilled chicken with provolone, artichoke hearts, and roasted red pesto',
     category: 'specialty',
@@ -81,7 +81,7 @@ export const menu = [
     id: 6,
     name: 'Mozzarella Stick',
     price: 4.95,
-    preview: '/assets/images/menu/mozzarella.jpg',
+    preview: '/asset/images/menu/mozzarella.jpg',
     ingredients: 'Lorem, deren, trataro, filede, nerada',
     category: 'starters',
     description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
@@ -92,7 +92,7 @@ export const menu = [
     id: 7,
     name: 'Greek Salad',
     price: 9.95,
-    preview: '/assets/images/menu/greek-salad.jpg',
+    preview: '/asset/images/menu/greek-salad.jpg',
     ingredients: 'Fresh spinach, crisp romaine, tomatoes, and Greek olives',
     category: 'salads',
     description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
@@ -103,7 +103,7 @@ export const menu = [
     id: 8,
     name: 'Spinach Salad',
     price: 9.95,
-    preview: '/assets/images/menu/spinach-salad.jpg',
+    preview: '/asset/images/menu/spinach-salad.jpg',
     ingredients:
       'Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette',
     category: 'salads',
@@ -115,7 +115,7 @@ export const menu = [
     id: 9,
     name: 'Lobster Roll',
     price: 12.95,
-    preview: '/assets/images/menu/lobster-roll.jpg',
+    preview: '/asset/images/menu/lobster-roll.jpg',
     ingredients:
       'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
     category: 'specialty',
@@ -155,7 +155,7 @@ export const filters = [
 export const specials = [
   {
     id: 1,
-    image: './assets/images/specials/specials-1.png',
+    image: './asset/images/specials/specials-1.png',
     title: 'Architecto ut aperiam autem id',
     subtitle:
       'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
@@ -165,7 +165,7 @@ export const specials = [
   },
   {
     id: 2,
-    image: './assets/images/specials/specials-2.png',
+    image: './asset/images/specials/specials-2.png',
     title: 'Et blanditiis nemo veritatis excepturi',
     subtitle:
       'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
@@ -175,7 +175,7 @@ export const specials = [
   },
   {
     id: 3,
-    image: './assets/images/specials/specials-3.png',
+    image: './asset/images/specials/specials-3.png',
     title: 'Impedit facilis occaecati odio neque aperiam sit',
     subtitle:
       'Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut',
@@ -185,7 +185,7 @@ export const specials = [
   },
   {
     id: 4,
-    image: './assets/images/specials/specials-4.png',
+    image: './asset/images/specials/specials-4.png',
     title:
       'Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore',
     subtitle:
@@ -196,7 +196,7 @@ export const specials = [
   },
   {
     id: 5,
-    image: './assets/images/specials/specials-5.png',
+    image: './asset/images/specials/specials-5.png',
     title: 'Est eveniet ipsam sindera pad rone matrelat sando reda',
     subtitle: 'Omnis blanditiis saepe eos autem qui sunt debitis porro quia.',
     content:
@@ -236,7 +236,7 @@ export const specialsFilters = [
 export const events = [
   {
     id: 1,
-    image: './assets/images/events/event-birthday.jpg',
+    image: './asset/images/events/event-birthday.jpg',
     title: 'Birthday Parties',
     price: 189,
     content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -251,7 +251,7 @@ export const events = [
   },
   {
     id: 2,
-    image: './assets/images/events/event-private.jpg',
+    image: './asset/images/events/event-private.jpg',
     title: 'Private Parties',
     price: 290,
     content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -266,7 +266,7 @@ export const events = [
   },
   {
     id: 3,
-    image: './assets/images/events/event-custom.jpg',
+    image: './asset/images/events/event-custom.jpg',
     title: 'Custom Parties',
     price: 99,
     content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -286,7 +286,7 @@ export const testimonials = [
     id: 1,
     content: `Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. 
     Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.`,
-    avatar: './assets/images/testimonials/testimonials-1.jpg',
+    avatar: './asset/images/testimonials/testimonials-1.jpg',
     client: 'Saul Goodman',
     position: 'CEO',
   },
@@ -294,7 +294,7 @@ export const testimonials = [
     id: 2,
     content: `Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum 
     eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.`,
-    avatar: './assets/images/testimonials/testimonials-2.jpg',
+    avatar: './asset/images/testimonials/testimonials-2.jpg',
     client: 'Sara Wilsson',
     position: 'Consultant',
   },
@@ -302,7 +302,7 @@ export const testimonials = [
     id: 3,
     content: `Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis 
     minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.`,
-    avatar: './assets/images/testimonials/testimonials-3.jpg',
+    avatar: './asset/images/testimonials/testimonials-3.jpg',
     client: 'Jena Karlis',
     position: 'Store Owner',
   },
@@ -310,7 +310,7 @@ export const testimonials = [
     id: 4,
     content: `Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim 
     velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.`,
-    avatar: './assets/images/testimonials/testimonials-4.jpg',
+    avatar: './asset/images/testimonials/testimonials-4.jpg',
     client: 'Matt Brandon',
     position: 'Freelancer',
   },
@@ -318,7 +318,7 @@ export const testimonials = [
     id: 5,
     content: `Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
      culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.`,
-    avatar: './assets/images/testimonials/testimonials-5.jpg',
+    avatar: './asset/images/testimonials/testimonials-5.jpg',
     client: 'John Larson',
     position: 'Entrepreneur',
   },
@@ -327,35 +327,35 @@ export const testimonials = [
 export const gallery = [
   {
     id: 1,
-    image: '/assets/images/gallery/gallery-1.jpg',
+    image: '/asset/images/gallery/gallery-1.jpg',
   },
   {
     id: 2,
-    image: '/assets/images/gallery/gallery-2.jpg',
+    image: '/asset/images/gallery/gallery-2.jpg',
   },
   {
     id: 3,
-    image: '/assets/images/gallery/gallery-3.jpg',
+    image: '/asset/images/gallery/gallery-3.jpg',
   },
   {
     id: 4,
-    image: '/assets/images/gallery/gallery-4.jpg',
+    image: '/asset/images/gallery/gallery-4.jpg',
   },
   {
     id: 5,
-    image: '/assets/images/gallery/gallery-5.jpg',
+    image: '/asset/images/gallery/gallery-5.jpg',
   },
   {
     id: 6,
-    image: '/assets/images/gallery/gallery-6.jpg',
+    image: '/asset/images/gallery/gallery-6.jpg',
   },
   {
     id: 7,
-    image: '/assets/images/gallery/gallery-7.jpg',
+    image: '/asset/images/gallery/gallery-7.jpg',
   },
   {
     id: 8,
-    image: '/assets/images/gallery/gallery-8.jpg',
+    image: '/asset/images/gallery/gallery-8.jpg',
   },
 ];
 
@@ -363,21 +363,21 @@ export const chefs = [
   {
     id: 1,
     name: 'Walter White',
-    photo: './assets/images/chefs/chefs-1.jpg',
+    photo: './asset/images/chefs/chefs-1.jpg',
     position: 'Master Chef',
     delay: '100',
   },
   {
     id: 2,
     name: 'Sarah Jhonson',
-    photo: './assets/images/chefs/chefs-2.jpg',
+    photo: './asset/images/chefs/chefs-2.jpg',
     position: 'Patissier',
     delay: '200',
   },
   {
     id: 3,
     name: 'William Anderson',
-    photo: './assets/images/chefs/chefs-3.jpg',
+    photo: './asset/images/chefs/chefs-3.jpg',
     position: 'Cook',
     delay: '300',
   },
