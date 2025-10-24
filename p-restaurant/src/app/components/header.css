@@ -19,7 +19,7 @@
 
 
 
-/* #header.logo {
+ #header.logo {
     font-size: 28px;
     margin: 0;
     padding: 0;
@@ -28,12 +28,13 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: 'Poppins', 'sans-serif' !important;
-} */
+} 
 
 
 #header .logo a {
     color: #fff;
     text-decoration: none;
+    /* text-decoration: none;
     font-size: 28px;
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: 'Poppins', 'sans-serif' !important;
+    font-family: 'Poppins', 'sans-serif' !important; */
 }
 
 #header .logo img {

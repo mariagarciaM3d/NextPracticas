@@ -145,9 +145,6 @@
     .navbar ul {
         display: none;
     }
-    .nav-list{
-        flex-direction: column;
-    }
 }
 
 .navbar-mobile {
@@ -163,6 +160,14 @@
 }
 
 .navbar-mobile .mobile-nav-toggle {
+    position: absolute;
+    top: 55px;
+    right: 15px;
+
+}
+
+.navbar-mobile ul{
+    display: block;
     position: absolute;
     top: 55px;
     right: 15px;

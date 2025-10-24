@@ -8,22 +8,25 @@ import Nav from './Nav';
 
 export default function Header() {
      const [scroll, setScroll] = useState(0); //Guarda la posición del scroll para aplicar o quitar la clase header-scrolled
-     const [on, setOn] = useState(false); //Indica si el menú móvil está abierto o cerrado
+     /* const [on, setOn] = useState(false); Indica si el menú móvil está abierto o cerrado
 
      const handleToogleMenu = () => {
         setOn(prev => !prev);
 
         document.body.classList.toggle('mobile-nav-active')
        
-    }
+    } */
     
         useEffect(() => {
-            const handleScroll= () => setScroll(window.scrollY);
-            window.addEventListener('scroll', handleScroll);
+            window.addEventListener('scroll',()=> {
+                setScroll(window.scrollY);
+            });
             return () => {
-                window.removeEventListener('scroll', handleScroll);
-            }
-        }, []);
+                window.removeEventListener('scroll', ()=> {
+                    setScroll(window.scrollY);
+                });
+            };
+        }, [scroll]);
 
   return (
     <header id='header' className={`fixed-top d-flex align-items-center ${scroll > 100 ? 'header-scrolled' : undefined}`}>
@@ -31,10 +34,7 @@ export default function Header() {
             <h1 className='logo me-auto me-lg-0'>
                 <Link href='/'>Restaurant</Link>
             </h1>
-        <i
-          className={`bi ${on ? 'bi-x' : 'bi-list'} mobile-nav-toggle`}
-          onClick={handleToogleMenu}
-        ></i>
+      
             {/*Para utilizar una imagen de logo */}
             {/* <Link href="index.html"className='logo me-auto me-lg-0'>
                 <img src="assets/img/logo.png" alt="Comment" className="img-fluid" /></Link>
