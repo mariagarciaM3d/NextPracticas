@@ -140,7 +140,7 @@ export default function Booking() {
                         className='form-control'
                         name='people'
                         value={text.people}
-                        placeholder='# of people'
+                        placeholder='Number of people'
                         onChange={handleTextChange}/>
                     </div>
                      <div className='form-group mt-3'>
